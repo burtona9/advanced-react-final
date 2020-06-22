@@ -1,0 +1,22 @@
+{
+  "name": "reat-advanced-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burtona9/advanced-react-final.git"
+  },
+  "author": "A Burton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burtona9/advanced-react-final/issues"
+  },
+  "homepage": "https://github.com/burtona9/advanced-react-final#readme"
+}
