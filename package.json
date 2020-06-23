@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
     "babel-loader": "^8.1.0",
     "eslint": "^7.3.0",
     "eslint-plugin-react": "^7.20.0",
+    "jest": "^26.0.1",
+    "react-test-renderer": "^16.13.1",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
