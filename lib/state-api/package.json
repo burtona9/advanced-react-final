@@ -1,0 +1,22 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burtona9/state-api-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burtona9/state-api-tutorial/issues"
+  },
+  "homepage": "https://github.com/burtona9/state-api-tutorial#readme"
+}

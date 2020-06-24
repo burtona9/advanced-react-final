@@ -1,7 +1,10 @@
 const path = require('path');
 
 const config =  {
-  entry: ['@babel/polyfill','./lib/components/Index.js'],
+  resolve: {
+    modules: ['./lib','./node_modules'],
+  },
+  entry: ['@babel/polyfill','./lib/renderers/dom.js'],
   output: {
     path: path.resolve(__dirname,'public'),
     filename: 'bundle.js'
